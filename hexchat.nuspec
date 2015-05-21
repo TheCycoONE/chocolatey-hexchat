@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>hexchat</id>
+    <version>2.10.1</version>
+    <title>HexChat IRC client</title>
+    <authors>Berke Viktor</authors>
+    <owners>pjmagee</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>http://hexchat.org/</projectUrl>
+    <iconUrl>http://gravatar.com/avatar/5fa6d05f1d097d75b1ae446c5af3c28f.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Easy to use and customizable interface
+	   Cross-platform on Windows and Unix-like OSes
+	   Highly scriptable with Python and Perl
+	   Translated in multiple languages
+	   Fully open source and actively developed
+	   Multi-network with auto-connect, join, and identify
+	   Spellcheck, Proxies, SASL, DCC support and more</description>
+    <summary>HexChat is an IRC client based on XChat, but unlike XChat it�s completely free for both Windows and Unix-like systems.</summary>
+    <releaseNotes>https://hexchat.readthedocs.org/en/latest/changelog.html</releaseNotes>
+    <copyright>Copyright (C) 1998-2010 Peter Zelezny.
+		Copyright (C) 2009-2013 Berke Viktor.</copyright>
+    <tags>hexchat irc instant messaging collaboration chat IM</tags>
+    <dependencies>
+      <dependency id="vcredist2013" />
+    </dependencies>
+  </metadata>
+</package>
